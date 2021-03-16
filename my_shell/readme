@@ -1,0 +1,22 @@
+Help:
+-------------------------Myshell----------------------
+Myshell程序支持内部命令：bg、cd 、clr、dir、echo 、exec 、exit 、environ、fg 、help、jobs 、pwd 、quit、set 、shift 、test 、time 、umask、unset
+命令用法：
+bg     :将一个在后台暂停的命令，变成继续执行
+cd     :修改当前目录，改变pwd环境变量，指令格式 cd <directory>
+clr    :清屏
+dir    :列出目录内容 dir <directory>
+echo   :打印显示
+exec   :执行程序
+exit   :退出程序
+environ:列出所有环境变量
+fg     :将后台中的命令调至前台继续运行
+jobs   :列出后台变量
+pwd    :显示当前目录
+quit   :退出shell
+set    :设置环境变量
+shift  :移动输入参数
+test   :条件测试，返回真假
+time   :显示当前时间
+umask  :设置默认权限
+unset  :删除环境变量
